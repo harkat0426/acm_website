@@ -1,0 +1,57 @@
+
+	
+	.headingcolor1{
+		color:black;
+		background-color:yellow;
+	}
+	#textfont1{
+		font-family:Montserrat, sans-serif;
+	}
+	}
+	#flex1{
+		flex-grow:1
+	}
+	#flex2{
+		flex-grow:2
+	}
+	.group{
+		display:flex;
+		flex-direction:column;
+		justify-content:space-around;
+		align-items:center;
+	}
+	.nav{
+		display:flex;
+		flex-direction:row;
+		justify-content:space-around;
+		background-color:black;
+		color:white;
+	}
+	.center{
+		display:flex;
+		justify-content:space-evenly
+	}
+	.flex-start{
+		display:flex;
+		justify-content:flex-start
+	}
+	.flex-end{
+		display:flex;
+		justify-content:flex-end
+	}
+	.column{
+		display:flex;
+		flex-direction:column;
+		align-items:center
+	}
+	.border{
+		border: 3px solid;
+	}
+	a{
+		color:#cccccc;
+		display:flex;
+		align-items:center;
+	}
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
