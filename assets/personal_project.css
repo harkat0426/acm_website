@@ -31,9 +31,7 @@
 		padding:1%;
 		
 	}
-	#tab{
-		border:1px solid white;
-		padding:.25%;
+	
 	
 	}
 	.center{
@@ -52,10 +50,42 @@
 		display:flex;
 		flex-direction:column;
 		align-items:center;
+		height:100%;
+		width:100%
+	}
+	.row{
+		display:flex;
+		flex-direction:row;
+		
 	}
 	.border{
 		border: 3px solid;
 	}
+	.formflex{
+		display:flex;
+		flex-direction:column;
+		width: 100%;
+	}
+	.flex-row{
+		display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+		justify-content:center;
+	}
+	{
+		background-color:grey:
+		padding:2%;
+		width:100%;	
+	}
+	.bottom{
+		background-color:grey;
+		padding:2%;
+		width:100%;	
+	}
+	td{
+		padding:.25%
+	}
+	
 	a{
 		color:#cccccc;
 		display:flex;
